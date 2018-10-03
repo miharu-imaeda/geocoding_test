@@ -7,7 +7,7 @@
 import requests
 import xmltodict
 
-full_address = "芝浦工業大学"
+full_address = "芝浦工業大学大宮キャンパス"
 url = 'http://www.geocoding.jp/api/'
 payload = {'q': full_address}
 result = requests.get(url, params=payload)
